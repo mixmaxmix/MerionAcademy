@@ -1,0 +1,514 @@
+.container {
+    padding: 0 15%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding-top: 0;
+    background: url(./img/backgroundIndex.png) left bottom / cover;
+}
+
+.main-text-container {
+    width: 50%;
+}
+
+.main-title {
+    font-size: 5.6rem;
+    line-height: 110%;
+}
+
+.main-text {
+    font-size: 1.8rem;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    line-height: 160%;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.course-button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-right: 1.6rem;
+    margin-bottom: .8rem;
+    background-color: var(--gray);
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: .2s;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+.course-button:hover {
+    color: var(--purple);
+    box-shadow: inset 0px 0px 0px 1px var(--purple);
+    border-radius: 8px;
+    background-color: rgba(96, 93, 236, 0.1);
+}
+
+.directions-container {
+    padding-top: 7rem;
+    padding-bottom: 14rem;
+    background-color: var(--background);
+    background: url(./img/backgroundDirections.svg) right center / cover;
+}
+
+.directions-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(22rem, 1fr));
+    grid-template-rows: repeat(2, minmax(22rem, 1fr));
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22rem;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    transition: .2s;
+    color: var(--alt-font-color);
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: -8.90123px -8.90123px 26.7037px #FFFFFF, 13.3518px 13.3518px 26.7037px #8582EF;
+}
+
+.card-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.card-text {
+    padding: 0 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-text h3 {
+    font-size: 3.2rem;
+}
+
+.card-text p {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.card#telephone {
+    background: linear-gradient(180deg, rgba(203, 186, 204, 0.6) 0%, rgba(37, 128, 179, 0.6) 100%), url(./img/course-img/telephone.png) center center / cover ;
+}
+
+.card#network {
+    background: linear-gradient(180deg, rgba(0, 198, 251, 0.6) 0%, rgba(0, 91, 234, 0.6) 100%), url(./img/course-img/network.png) center center / cover;
+}
+
+.card#linux {
+    grid-row: 1;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background: linear-gradient(180deg, rgba(58, 58, 58, 0.6) 0%, rgba(37, 128, 179, 0.6) 100%), url(./img/course-img/linux.png) center center / cover;
+}
+
+.card#devops {
+    background: linear-gradient(180deg, rgba(248, 54, 0, 0.6) 0%, rgba(249, 212, 35, 0.6) 100%), url(./img/course-img/devops.png) center center / cover;
+}
+
+.card#security {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background: linear-gradient(180deg, rgba(48, 207, 208, 0.6) 0%, rgba(51, 8, 103, 0.6) 100%), url(./img/course-img/security.png) center center / cover;
+}
+
+.card#virtual {
+    background: linear-gradient(180deg, rgba(22, 160, 133, 0.6) 0%, rgba(244, 208, 63, 0.6) 100%), url(./img/course-img/virtual.png) center center / cover;
+}
+
+.popular-container {
+    background-color: var(--background);
+    background: url(./img/backgroundPopular.svg) left center / cover;
+    padding-top: 7rem;
+}
+
+.popular-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(22rem, 1fr));
+    grid-template-rows: repeat(2, minmax(22rem, 1fr));
+    gap: 3rem;
+}
+
+.popular-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+    padding: 2rem;
+    border-radius: 3.5rem;
+    background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+    box-shadow: -8.90123px -8.90123px 26.7037px #FFFFFF, 13.3518px 13.3518px 26.7037px rgba(174, 174, 192, 0.4);
+    background-blend-mode: soft-light, normal;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.popular-card:hover {
+    box-shadow: -8.90123px -8.90123px 26.7037px #FFFFFF, 13.3518px 13.3518px 26.7037px rgba(133, 130, 239, 0.6);
+}
+
+.card-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all-courses {
+    color: var(--purple);
+    font-size: 1.8rem;
+    text-align: center;
+    transform: translateY(10rem);
+}
+
+.about-title {
+    position: relative;
+    z-index: 1;
+    transform: translateY(16rem);
+    font-size: 34rem;
+    text-align: center;
+    color: #ffffff00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--purple);
+}
+
+.statistics-container {
+    position: relative;
+    background: var(--white);
+    z-index: 2;
+}
+
+.block-container {
+    padding: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    text-align: center;
+}
+
+.block h3 {
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.block p {
+    font-size: 1.6rem;
+    opacity: .8;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10rem;
+    border-bottom: .1rem solid var(--stroke-color);
+}
+
+.quote-text {
+    font-size: 3.2rem;
+    text-align: center;
+    width: 70rem;
+}
+
+.reviews-container {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    background: var(--background);
+}
+
+.swiper {
+    transform: translateX(-15%);
+    width: 100vw;
+    height: 40rem;
+}
+
+.swiper-slide {
+    display: flex;
+    border-radius: .8rem;
+    padding: 3rem;
+    background: var(--white);
+    border: .1rem solid var(--purple);
+    width: 60.4rem;
+    height: 35rem;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--purple);
+}
+
+.review-text {
+    margin-left: 2rem;
+}
+
+.review-text .text {
+    width: 100%;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.avatar {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+@media (max-width: 1750px) {
+    .card-text {
+        padding: 0 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .card-text h3 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 1550px) {
+    .about-title {
+        font-size: 30rem;
+    }
+}
+
+@media (max-width: 1370px) {
+    .directions-cards {
+        grid-template-columns: repeat(3, minmax(22rem, 1fr));
+        grid-template-rows: repeat(2, minmax(22rem, 1fr));
+    }
+    .card#linux {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .card#security {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .about-title {
+        font-size: 25rem;
+        transform: translateY(10rem);
+    }
+    .swiper-slide {
+        height: 50rem;
+    }
+    .swiper {
+        height: 60rem;
+    }
+    .block-container {
+        padding: 10rem 0;
+    }
+    .courses-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .about-title {
+        font-size: 20rem;
+    }
+    .header-link {
+        display: none;
+    }
+    .header-burger {
+        display: block;
+    }
+    .main-container {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 3.3rem 5%;
+    }
+    .container {
+        padding: 10rem 5%;
+    }
+    .block-container {
+        padding: 0;
+    }
+    .swiper {
+        transform: translateX(0);
+        width: 70rem;
+    }
+    .about-title {
+        transform: translateY(18rem);
+    }
+    .main-text-container {
+        position: relative;
+        z-index: 2;
+        width: 60%;
+    }
+    .main-container img {
+        position: absolute;
+        right: 5rem;
+        z-index: 1;
+    }
+    .main-container {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 990px) {
+    body {
+        margin-top: 20rem;
+    }
+    .swiper {
+        transform: translateX(0);
+        width: 70rem;
+    }
+    .directions-cards {
+        grid-template-columns: repeat(2, minmax(22rem, 1fr));
+        grid-template-rows: repeat(3, minmax(22rem, 1fr));
+    }
+    .card#linux {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 3;
+    }
+    .card#security {
+        grid-row: 3;
+    }
+    .popular-cards {
+        grid-template-columns: repeat(2, minmax(22rem, 1fr));
+        grid-template-rows: repeat(3, minmax(22rem, 1fr));
+    }
+}
+
+@media (max-width: 760px) {
+    .swiper {
+        width: 45rem;
+    }
+    .quote-text {
+        font-size: 2.2rem;
+    }
+    .quote-text {
+        width: 50rem;
+        font-size: 2rem;
+    }
+    .about-title {
+        font-size: 15rem;
+        transform: translateY(17rem);
+    }
+    .block h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        margin-top: 20rem;
+    }
+    .main-container img {
+        display: none;
+    }
+    .main-text-container {
+        width: 100%;
+    }
+    .main-title {
+        font-size: 4rem;
+    }
+    .directions-cards {
+        grid-template-columns: repeat(1, minmax(22rem, 1fr));
+        grid-template-rows: repeat(6, minmax(22rem, 1fr));
+    }
+    .card#linux {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 4;
+    }
+    .card#security {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 3;
+    }
+    .popular-cards {
+        grid-template-columns: repeat(1, minmax(22rem, 1fr));
+        grid-template-rows: repeat(6, minmax(22rem, 1fr));
+    }
+    .directions-container {
+        background: var(--background);
+    }
+    .popular-container {
+        background: var(--background);
+    }
+    .about-title {
+        font-size: 10rem;
+        transform: translateY(14rem);
+    }
+    .block-container {
+        flex-direction: column;
+    }
+    .block h3 {
+        font-size: 3.2rem;
+    }
+    .block p {
+        margin-bottom: 10rem;
+    }
+    .block:last-child p {
+        margin-bottom: 0;
+    }
+    .quote-container {
+        padding: 0 5%;
+        padding-bottom: 5rem;
+    }
+    .quote-text {
+        width: 30rem;
+    }
+    .swiper {
+        width: 32rem;
+    }
+    .swiper-slide {
+        flex-direction: column;
+    }
+    .avatar {
+        margin-bottom: 1.5rem;
+    }
+    .title {
+        font-size: 3.3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        height: 130vh;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .swiper {
+        width: 28rem;
+    }
+    .swiper-slide {
+        padding: 1rem;
+    }
+    .header-logo {
+        width: 22rem;
+    }
+    .about-title {
+        font-size: 8rem;
+    }
+}

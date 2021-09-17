@@ -1,0 +1,242 @@
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+.filter {
+    padding: .8rem 1.6rem;
+    color: var(--white);
+    font-size: 1.6rem;
+    background: #a9aaad;
+    border-radius: 5.4rem;
+    cursor: pointer;
+    margin-top: 1.6rem;
+    margin-right: 1.6rem;
+    opacity: 1;
+}
+
+.filter-active#all {
+    background: var(--font-color);
+}
+
+.filter-active#telephone {
+    background: linear-gradient(180deg, #A195A3 0%, #276A91 100%);
+}
+
+.filter-active#network {
+    background: linear-gradient(180deg, #019CC9 0%, #0150BD 100%);
+}
+
+/* /// Add gradients for next tags ///  */
+
+.filter-active#linux {
+    background: linear-gradient(180deg, #019CC9 0%, #0150BD 100%);
+}
+
+.filter-active#devops {
+    background: linear-gradient(180deg, #019CC9 0%, #0150BD 100%);
+}
+
+.filter-active#security {
+    background: linear-gradient(180deg, #019CC9 0%, #0150BD 100%);
+}
+
+.filter-active#virtual {
+    background: linear-gradient(180deg, #019CC9 0%, #0150BD 100%);
+}
+
+.container {
+    background: var(--background);
+    padding-bottom: 7.5rem;
+}
+
+.container .title {
+    padding-top: 5.6rem;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2.9rem;
+    background-color: #fff;
+    margin-bottom: 7.5rem;
+    line-height: 2.8rem;
+    transition: .1s;
+    border: .2rem solid var(--background);
+}
+
+.course:hover {
+    border: .2rem solid var(--purple);
+}
+
+.course:last-child {
+    margin-bottom: 0;
+}
+
+.course-tags {
+    display: flex;
+    padding-bottom: 1.6rem;
+}
+
+.course-tags .tag {
+    font-size: 1.4rem;
+    color: #fff;
+    padding: .6rem 1.8rem;
+    border-radius: 5.4rem;
+    margin-right: 1.6rem;
+}
+
+.course-tags .tag#sale {
+    background: linear-gradient(180deg, #C95C7A 0%, #CBA93D 100%);
+}
+
+.course-tags .tag#telephone {
+    background: linear-gradient(180deg, #A195A3 0%, #276A91 100%);
+}
+
+.course-tags .tag#network {
+    background: linear-gradient(180deg, #019CC9 0%, #0150BD 100%);
+}
+
+/* /// Add gradients for next tags ///  */
+
+.course-tags .tag#linux {
+    background: linear-gradient(180deg, #A195A3 0%, #276A91 100%);
+}
+
+.course-tags .tag#devops {
+    background: linear-gradient(180deg, #A195A3 0%, #276A91 100%);
+}
+
+.course-tags .tag#security {
+    background: linear-gradient(180deg, #A195A3 0%, #276A91 100%);
+}
+
+.course-tags .tag#virtual {
+    background: linear-gradient(180deg, #A195A3 0%, #276A91 100%);
+}
+
+.course-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-text .title {
+    padding-top: 5.6rem;
+    padding-right: 1.6rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.course-text .subtitle {
+    font-size: 1.6rem;
+    color: #8A8894;
+}
+
+.course-text p {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+}
+
+.course-icon {
+    margin: 3rem;
+    /* padding: 3.5rem; */
+    /* media-query */
+    width: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-content {
+    display: flex;
+    padding: 3.5rem 0;
+    justify-content: space-between;
+}
+
+.course-description {
+    padding: 5rem 4.5rem;
+    width: 34rem;
+    background: var(--purple);
+    border-radius: 0 2.6rem 2.6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-description div {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.course-description img {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.course-description span {
+    font-size: 1.6rem;
+    color: #F2F2F2;
+    padding-left: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 3.3rem 5%;
+    }
+    .container {
+        padding: 10rem 5%;
+    }
+}
+
+@media (max-width: 769px) {
+    .course {
+        display: flex;
+        flex-direction: column;
+    }
+    .course-description {
+        width: 100%;
+        flex-direction: row;
+        border-radius: 0 0 2.6rem 2.6rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .course-description {
+        padding: 5rem .5rem;
+    }
+    .course-description div {
+        align-items: center;
+        flex-direction: column;
+    }
+    .course-description span {
+        padding: 0;
+    }
+    .course-content {
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .course-icon {
+        margin: 0;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 4rem;
+    }
+    .course-icon {
+        width: 100%;
+    }
+    .course-text .subtitle {
+        font-size: 1rem;
+    }
+}
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор Курса</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="menu-opened">
+        <div class="menu-nav">
+            <a href="./index.html#main" class="menu-link">Главная</a>
+            <a href="./index.html#directions" class="menu-link">Направления</a>
+            <a href="./courses.html" class="menu-link">Курсы</a>
+            <a href="./index.html#about" class="menu-link">О нас</a>
+            <a href="./index.html#reviews" class="menu-link">Отзывы</a>
+        </div>
+        <footer>
+            <img src="./img/logo.svg" alt="">
+            <p class="footer-text">© Copyright 2021 Merion</p>
+        </footer>
+    </div>
+    <header>
+        <a href="./index.html">
+            <img src="./img/logo.svg" alt="Merion Academy" class="header-logo">
+        </a>
+        <div class="header-nav">
+            <a href="./index.html#main" class="header-link">Главная</a>
+            <a href="./index.html#directions" class="header-link">Направления</a>
+            <a href="./courses.html" class="header-link">Курсы</a>
+            <a href="./index.html#about" class="header-link">О Нас</a>
+            <a href="./index.html#reviews" class="header-link">Отзывы</a>
+            <div class="header-burger"></div>
+        </div>
+    </header>
+    <section class="container">
+        <h2 class="title">Выберите направление</h2>
+        <div class="filter-container">
+            <div class="filter filter-active" id="all">Все</div>
+            <div class="filter" id="telephone">Телефония</div>
+            <div class="filter" id="network">Сети</div>
+            <div class="filter" id="linux">Linux администрирование</div>
+            <div class="filter" id="devops">DevOps</div>
+            <div class="filter" id="security">Кибербезопасность</div>
+            <div class="filter" id="virtual">Виртуализация</div>
+        </div>
+        <div class="filtered-courses">
+            <a href="./course-example.html" class="course" id="network">
+                <div class="course-content">
+                    <div class="course-icon">
+                        <img src="./img/courses-logos/network.svg" alt="">
+                    </div>
+                    <div class="course-text-container">
+                        <div class="course-tags">
+                            <div class="tag" id="network">Сети</div>
+                            <div class="tag" id="sale">Скидка 50%</div>
+                        </div>
+                        <div class="course-text">
+                            <span class="title">Сетевые технологии</span>
+                            <span class="subtitle">за 2 месяца</span>
+                            <p>Вы научитесь администрировать Windows Server, освоите службу каталогов Active Directory и научитесь профессиональному построению локальных сетей.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-description">
+                    <div>
+                        <img src="./img/description-logos/online.svg" alt="">
+                        <span>Онлайн</span>
+                    </div>
+                    <div>
+                        <img src="./img/description-logos/time.svg" alt="">
+                        <span>2 месяца</span>
+                    </div>
+                    <div>
+                        <img src="./img/description-logos/unlocked.svg" alt="">
+                        <span>Навсегда</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./course-example.html" class="course" id="telephone">
+                <div class="course-content">
+                    <div class="course-icon">
+                        <img src="./img/courses-logos/asterisk-pro.svg" alt="">
+                    </div>
+                    <div class="course-text-container">
+                        <div class="course-tags">
+                            <div class="tag" id="telephone">Телефония</div>
+                            <!-- <div class="tag" id="sale">Скидка 50%</div> -->
+                        </div>
+                        <div class="course-text">
+                            <span class="title">Сетевые технологии</span>
+                            <span class="subtitle">за 2 месяца</span>
+                            <p>Вы научитесь администрировать Windows Server, освоите службу каталогов Active Directory и научитесь профессиональному построению локальных сетей.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-description">
+                    <div>
+                        <img src="./img/description-logos/online.svg" alt="">
+                        <span>Онлайн</span>
+                    </div>
+                    <div>
+                        <img src="./img/description-logos/time.svg" alt="">
+                        <span>1 месяц</span>
+                    </div>
+                    <div>
+                        <img src="./img/description-logos/unlocked.svg" alt="">
+                        <span>Навсегда</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./course-example.html" class="course" id="telephone">
+                <div class="course-content">
+                    <div class="course-icon">
+                        <img src="./img/courses-logos/asterisk.svg" alt="">
+                    </div>
+                    <div class="course-text-container">
+                        <div class="course-tags">
+                            <div class="tag" id="telephone">Телефония</div>
+                            <!-- <div class="tag" id="sale">Скидка 50%</div> -->
+                        </div>
+                        <div class="course-text">
+                            <span class="title">Сетевые технологии</span>
+                            <span class="subtitle">за 2 месяца</span>
+                            <p>Вы научитесь администрировать Windows Server, освоите службу каталогов Active Directory и научитесь профессиональному построению локальных сетей.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-description">
+                    <div>
+                        <img src="./img/description-logos/online.svg" alt="">
+                        <span>Онлайн</span>
+                    </div>
+                    <div>
+                        <img src="./img/description-logos/time.svg" alt="">
+                        <span>2 месяца</span>
+                    </div>
+                    <div>
+                        <img src="./img/description-logos/unlocked.svg" alt="">
+                        <span>Навсегда</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <img src="./img/logo.svg" alt="">
+        <p class="footer-text">© Copyright 2021 Merion</p>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./courses.js"></script>
+</body>
+</html>

@@ -60,7 +60,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding-top: 10rem;
-    padding-bottom: 30rem;
+    padding-bottom: 20rem;
 }
 
 .item {
@@ -641,7 +641,7 @@ iframe {
     border-radius: 1.4rem 1.4rem 0 0;
     position: absolute;
     font-size: 3.2rem;
-    background: #3c00ff9a;
+    background: var(--purple);
     top: 0;
     width: 100%;
     text-align: center;
@@ -654,6 +654,12 @@ iframe {
         width: 29.9rem;
         right: -30rem;
         top: -2.7rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .form-mascot {
+        display: none;
     }
 }
 
@@ -706,6 +712,9 @@ iframe {
     }
     .main-description {
         background: url(./img/qouteShapeBgLaptop.svg) center center / cover;
+    }
+    .form-mascot {
+        display: none;
     }
 }
 

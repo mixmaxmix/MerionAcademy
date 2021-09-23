@@ -1,13 +1,13 @@
 <svg width="1880" height="900" viewBox="0 0 1880 900" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect width="1880" height="900" fill="white"/>
-<path d="M142.893 384.559C162.395 441.8 126.448 493.14 65.9934 494.389L-51.6648 496.82C-102.294 497.866 -152.924 462.959 -170.128 415.147L-210.547 302.816C-231.58 244.362 -194.569 191.492 -132.452 191.261L-11.9689 190.811C38.8436 190.622 88.9653 226.268 105.299 274.21L142.893 384.559Z" fill="#605DEC" fill-opacity="0.5"/>
+<path d="M1880 0H0V900H1880V0Z" fill="white"/>
+<path d="M142.893 484.301C162.395 541.542 126.448 592.882 65.9934 594.131L-51.6648 596.562C-102.294 597.608 -152.924 562.701 -170.128 514.889L-210.547 402.558C-231.58 344.104 -194.569 291.234 -132.452 291.003L-11.9689 290.553C38.8436 290.364 88.9653 326.01 105.299 373.952L142.893 484.301Z" fill="#605DEC" fill-opacity="0.5"/>
 <g filter="url(#filter0_f)">
-<path d="M109.648 312.315C152.533 354.517 145.739 420.38 95.122 453.126L20.1309 501.641C-22.2517 529.06 -81.158 523.506 -117.641 488.651L-222.11 388.847C-266.735 346.213 -259.514 278.389 -206.885 245.853L-128.678 197.504C-85.8443 171.023 -27.3523 177.498 8.3955 212.676L109.648 312.315Z" fill="#605DEC" fill-opacity="0.5"/>
+<path d="M109.648 412.057C152.533 454.259 145.739 520.122 95.122 552.868L20.1309 601.383C-22.2517 628.802 -81.158 623.248 -117.641 588.393L-222.11 488.589C-266.735 445.955 -259.514 378.131 -206.885 345.595L-128.678 297.246C-85.8443 270.765 -27.3523 277.24 8.39549 312.418L109.648 412.057Z" fill="#605DEC" fill-opacity="0.5"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_f" x="-285.452" y="147.258" width="457.355" height="405.756" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f" x="-285.452" y="247" width="457.355" height="405.757" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="17" result="effect1_foregroundBlur"/>

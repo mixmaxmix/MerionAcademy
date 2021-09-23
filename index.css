@@ -316,9 +316,9 @@
         font-size: 25rem;
         transform: translateY(10rem);
     }
-    .swiper-slide {
+    /* .swiper-slide {
         height: 50rem;
-    }
+    } */
     .swiper {
         height: 60rem;
     }
@@ -411,9 +411,10 @@
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     .swiper {
         width: 45rem;
+        height: 40rem;
     }
     .quote-text {
         font-size: 2.2rem;
@@ -501,6 +502,10 @@
     }
     .swiper {
         width: 40rem;
+        height: 55rem;
+    }
+    .swiper-slide {
+        height: 50rem;
     }
     .swiper-slide {
         flex-direction: column;
@@ -510,6 +515,12 @@
     }
     .title {
         font-size: 3.3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .swiper {
+        width: 35rem;
     }
 }
 

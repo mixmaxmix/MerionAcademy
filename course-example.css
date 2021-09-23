@@ -55,7 +55,7 @@ body {
 
 .main-description {
     background: var(--background);
-    background: url(./img/backgroundCourses2.svg) center left / cover;
+    background: url(./img/backgroundCourses2.svg) center center / cover;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -460,6 +460,7 @@ body {
     padding-top: 5rem;
     padding-bottom: 10rem;
     background: var(--background);
+    height: 65rem;
 }
 
 .swiper {
@@ -632,6 +633,8 @@ iframe {
     border-radius: 1.5rem;
     border-bottom: .3rem solid var(--dark-purple);
     border-right: .3rem solid var(--dark-purple);
+    height: 50rem;
+    background: url(./img/preview.png) center center / cover;
 }
 
 .slide-info-text {
@@ -666,7 +669,7 @@ iframe {
         right: -21.3%;
         top: -1.4rem;
     }
-    .form-content img {
+    .form-img {
         display: none;
     }
     .getting-items {
@@ -676,9 +679,9 @@ iframe {
     .signUp-container {
         padding: 5%;
     }
-    .main-description {
+    /* .main-description {
         background: var(--background);
-    }
+    } */
     .info-container::before {
         transform: scale(0.5);
         left: -25rem;
@@ -700,6 +703,9 @@ iframe {
     .getting-container {
         padding-bottom: 0;
         margin: 0;
+    }
+    .main-description {
+        background: url(./img/qouteShapeBgLaptop.svg) center center / cover;
     }
 }
 
@@ -764,9 +770,18 @@ iframe {
     .more-info-container .title {
         margin-top: 2rem;
     }
+    .main-description {
+        background: url(./img/qouteShapeBgTablet.svg) center center / cover;
+    }
+    .reviews-container {
+        height: 68rem;
+    }
 }
 
 @media(max-width: 426px) {
+    .about-sale {
+        padding: 2rem 2rem;
+    }
     .mentor {
         margin: 2rem 0;
         display: flex;
@@ -793,7 +808,7 @@ iframe {
         background-color: var(--background);
     }
     .block {
-        width: 16rem;
+        width: 19rem;
     }
     .statistics-blocks::before {
         display: none;
@@ -873,8 +888,16 @@ iframe {
     }
     .form-btn {
         margin-top: 1rem;
+        width: 50%;
+    }
+    .form-mascot {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 20rem;
     }
     .all-info-container iframe {
+        height: 30rem;
         margin-top: 0;
     }
     .info-container::before {
@@ -932,10 +955,90 @@ iframe {
     .mentor-container {
         background: var(--background);
     }
+    .tab-list__item-title {
+        font-size: 1.2rem;
+    }
+    .reviews-container {
+        height: 85rem;
+    }
+    .more-info-slider {
+        position: relative;
+        bottom: 8rem;
+    }
+    .signUp-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 3.2rem;
+    }
+    .link {
+        width: 16rem;
+        padding: 1.6rem .8rem;
+    }
+    .marketing-blocks {
+        padding: 2rem 0;
+    }
+    .all-info-container iframe {
+        height: 20rem;
+    }
+    .slide-info-text {
+        font-size: 1.8rem;
+    }
+    .getting-title {
+        font-size: 1.8rem;
+    }
+    .sale-title {
+        font-size: 4rem;
+    }
+    .link:first-child {
+        margin-right: 0;
+    }
+    .block {
+        width: 16rem;
+    }
+    .block-text {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .form-mascot {
+        top: 24rem;
+    }
 }
 
 @media (max-width: 320px) {
     .header-logo {
         padding-right: 5rem;
+    }
+    .title {
+        font-size: 3.2rem;
+    }
+    .link {
+        width: auto;
+        padding: 1.6rem .8rem;
+    }
+    .marketing-blocks {
+        padding: 2rem 0;
+    }
+    .all-info-container iframe {
+        height: 20rem;
+    }
+    .slide-info-text {
+        font-size: 1.8rem;
+    }
+    .getting-title {
+        font-size: 1.8rem;
+    }
+    .block {
+        width: 13rem;
+    }
+    .block-text {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .form-mascot {
+        right: 3rem;
     }
 }

@@ -522,7 +522,7 @@
         width: 30rem;
     }
     .swiper {
-        width: 40rem;
+        width: 35rem;
         height: 55rem;
     }
     .swiper-slide {
@@ -547,11 +547,11 @@
 
 @media (max-width: 375px) {
     .swiper {
-        width: 35rem;
+        width: 32rem;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 342px) {
     body {
         height: 130vh;
     }

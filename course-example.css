@@ -125,7 +125,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     background: var(--light-purple);
     transform: skew(-10deg);
     border-radius: 2rem;
@@ -680,11 +680,21 @@ iframe {
     font-size: 3.5rem;
 }
 
+input {
+    -webkit-appearance: none;
+}
+input[type=text], input[type=button], input[type=submit] {   
+    background-color : var(--purple);    
+}
+
 @media (max-width: 1920px) {
     .statistics-blocks::after {
         width: 29.9rem;
         right: -30rem;
         top: -2.7rem;
+    }
+    .form-text {
+        width: 60%;
     }
 }
 
@@ -700,6 +710,9 @@ iframe {
     .form-btns {
         display: flex;
         flex-direction: column;
+    }
+    .form-text {
+        width: auto;
     }
 }
 
@@ -1042,10 +1055,8 @@ iframe {
         height: 85rem;
     }
     .more-info-slider {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         position: relative;
+        left: .8rem;
         bottom: 8rem;
     }
     .signUp-btn {

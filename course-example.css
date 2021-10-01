@@ -680,11 +680,8 @@ iframe {
     font-size: 3.5rem;
 }
 
-input {
+input[type=text], input[type=button], input[type=submit] {
     -webkit-appearance: none;
-}
-input[type=text], input[type=button], input[type=submit] {   
-    background-color : var(--purple);    
 }
 
 @media (max-width: 1920px) {
@@ -1061,6 +1058,15 @@ input[type=text], input[type=button], input[type=submit] {
     }
     .signUp-btn {
         width: 100%;
+    }
+}
+
+@media (max-width: 397px) {
+    .form-mascot {
+        top: 25rem;
+    }
+    .form-img-alt {
+        height: 8rem;
     }
 }
 

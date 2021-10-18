@@ -19,6 +19,12 @@
     --light-purple: #e2e2ff;
     --dark-blue: #2C3E50;
     --dark-purple: #3D3ACE;
+    --tele: #327DA5;
+    --network: #94A7C4;
+    --linux: #29739D;
+    --security: #31A2B9;
+    --virtual: #67B26C;
+    --form-btn: #64B6E6;
 }
 
 input[type=submit] {

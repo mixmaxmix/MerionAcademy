@@ -20,11 +20,12 @@
     --dark-blue: #2C3E50;
     --dark-purple: #3D3ACE;
     --tele: #327DA5;
-    --network: #94A7C4;
+    --network: #0095F3;
     --linux: #29739D;
     --security: #31A2B9;
-    --virtual: #67B26C;
+    --virtual: #97BC5C;
     --form-btn: #64B6E6;
+    --devops: #FDABAA;
 }
 
 input[type=submit] {

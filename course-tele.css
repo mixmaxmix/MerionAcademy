@@ -803,6 +803,8 @@ input[type=text], input[type=button], input[type=submit] {
         font-size: 3.2rem;
     }
     .sale {
+        top: auto;
+        left: auto;
         bottom: 2rem;
     }
     .container {

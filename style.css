@@ -19,13 +19,14 @@
     --light-purple: #e2e2ff;
     --dark-blue: #2C3E50;
     --dark-purple: #3D3ACE;
-    --tele: #327DA5;
+    --tele: #38B8FF;
     --network: #0095F3;
-    --linux: #29739D;
+    --linux: #FF9838;
     --security: #31A2B9;
-    --virtual: #97BC5C;
-    --form-btn: #64B6E6;
-    --devops: #FDABAA;
+    --virtual: #13d5b1;
+    --devops: #A738FF;
+    --form-btn: #4363ff;
+    --form-btn-alt: #FF9838;
 }
 
 input[type=submit] {

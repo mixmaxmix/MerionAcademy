@@ -555,7 +555,7 @@ body {
 }
 
 .signUp-btn {
-    background: var(--form-btn);
+    background: var(--form-btn-alt);
 }
 
 .signUp-link {
